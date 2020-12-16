@@ -1,0 +1,8 @@
+module {{ project_id }} {
+  source = "./modules/project"
+
+  project_name = "{{ project_name }}"
+  billing_account = var.billing_account
+  project_id   = "{{ project_id }}"
+  api_services = {{ api_services }}
+}
